@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h3.header {
+  text-align: center;
+  background-color: rgb(232, 89, 146);
+  color: white;
+  padding: 5px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-size: medium;
+  margin-bottom: 20px;
+}
+nav {
+  font-size: larger;
+}
+.navbar-brand{
+  font-style: italic;
+  font-family:cursive;
+  
+}
+a.decor>img,a.decor2>img{
+  height: 100vh;
+  width: 98.8vw;
+}
+div.circle,div.incense,div.limited-edition,div.healing-crystals,div.salt-lamps,div.murtis,div.pooja{
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 98vw;
+}
+
+div.circle > div,div.incense>div,div.limited-edition>div,div.healing-crystals>div,div.salt-lamps>div,div.murtis>div,div.pooja>div{
+    text-align: center;
+  font-weight: 400;
+  color: rgb(37, 37, 37);
+}
+div.circle > div > a > img {
+    width: 200px;
+    height: 200px;
+    object-fit:fill;
+    border-radius: 50%;
+}
+div.incense>div>a>img,div.limited-edition>div>a>img,div.healing-crystals>div>a>img,div.salt-lamps>div>a>img,div.murtis>div>a>img,div.pooja>div>a>img{
+    width: 280px;
+    height: 300px;
+}
+p.cart,p.view{
+    text-align: center;
+    background-color: rgb(211,19,79);
+    color: white;
+    font-size: medium;
+    padding: 5px; 
+}
+div.data{
+  text-align: center;
+  margin-top: 60px;
+}
+div.data>h2{
+  text-align: center;
+}
+div.show{
+  display: none;
+}
+div.data div{
+  padding: 10px;
+}
+div.data button{
+
+  color: rgb(214,36,78);
+  background: none;
+  outline: none;
+  border: none;
+}
+div.default>p,div.show>p{
+  text-align: left;
+}
+footer{
+  background-color:rgb(255,175,182) ;
+  color: white;
+  text-align: left;
+}
+footer>div{
+  padding: 20px;
+}
+footer ul{
+  list-style-type: none;
+  /* list-style-position: inside; */
+  padding-left: 0;
+}
+ul>li{
+  line-height: 40px;
+  font-weight: 200;
+}
+@media screen and (max-width: 992px){
+  nav>span>svg{
+    width: 24px;
+    height: 24px;
+  }
+  a.decor>img,a.decor2>img{
+  height: 80vh;
+  width: 100%;
+}
+div.data{
+  text-align: center;
+  margin-top: 40px;
+}
+}
+@media screen and (max-width: 600px){
+  nav>span>svg{
+    width: 16px;
+    height: 16px;
+  }
+  a.decor>img,a.decor2>img{
+  height: 60vh;
+  width: 100%;
+}
+div.data{
+  text-align: center;
+  margin-top: 20px;
+}
+}
